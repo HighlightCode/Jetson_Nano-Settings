@@ -27,6 +27,6 @@ sudo mkdir -p /opt/nvidia/deepstream/deepstream-6.0/lib
 sudo cp /usr/local/lib/librdkafka* /opt/nvidia/deepstream/deepstream-6.0/lib
 
 echo "** Install newest nvidia-l4t-streamer  " 
-$ sudo apt install --reinstall nvidia-l4t-gstreamer
-$ sudo apt install --reinstall nvidia-l4t-multimedia
-$ sudo apt install --reinstall nvidia-l4t-core
+sudo apt install --reinstall nvidia-l4t-gstreamer
+sudo apt install --reinstall nvidia-l4t-multimedia
+sudo apt install --reinstall nvidia-l4t-core
